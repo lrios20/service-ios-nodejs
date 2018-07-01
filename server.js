@@ -7,6 +7,8 @@ var usuarioController = require('./controllers/usuarios');
 var generoController = require('./controllers/generos');
 var bodyParser = require('body-parser');
 
+/*NO QUIERO JALAR*/
+
 //var urlLocal = "mongodb://localhost/bd_pruebaios4"
 //conexion bd local
 /*mongoose.connect(urlLocal , function(err){
