@@ -1,7 +1,7 @@
 //generos.js
 var genero = require('../models/genero');
 var port = process.env.PORT || 8080;
-var rutaImagenes = 'http://localhost:8080/images/'
+var rutaImagenes = 'https://service-ios.azurewebsites.net/images/'
 
 exports.Listar = function(req,res){
 	genero.find(function(err,result){
