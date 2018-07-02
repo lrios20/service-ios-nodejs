@@ -12,8 +12,16 @@ exports.Login = function(req,res){
 					mensaje: 'Error al conectar con servidor'
 				})
 			}
-			else{                   
+			else{  
+				if(!resultado){
+					res.status(401).json({
+						success: false,
+						mensaje: 'Usuario no encontrado'
+					});                  
+				}
+				else {
 					res.status(200).json({resultado});                  
+				}                 
 			}
 		});
 }
