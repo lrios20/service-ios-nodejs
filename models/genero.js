@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 //esquemas
 
 var peliculaEsquema = mongoose.Schema({
-	titulo:{type:String,unique:true},
+	titulo:String,
 	director:String,
 	sinopsis:String,
 	duracion:String,

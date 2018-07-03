@@ -20,7 +20,7 @@ var bodyParser = require('body-parser');
 });*/
 
 //conexion a la bd en azure
-mongoose.connect('mongodb://bd-serviceios.documents.azure.com:10255/bd-ios?ssl=true', {
+mongoose.connect('mongodb://bd-serviceios.documents.azure.com:10255/bd-admin?ssl=true', {
     auth: {
       user: 'bd-serviceios',
       password: 'x7yVE7w8nuJGjZ17dcZSHSwvgmaoQwlSSLf1ipouC7Yhq8w5QReiTRZPs3YYk3gCB0SPeG9EcBdSPArMA0Js8g=='
