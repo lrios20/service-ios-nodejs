@@ -21,7 +21,7 @@ exports.cargaMasiva = function(){
  	genero1.descripcion = "Accion";
  	for(var i=1;i<5;i++)
  	{
- 		genero2.peliculas.push({
+ 		genero1.peliculas.push({
  			titulo:'Titanic'+i,
  			director:'Josue',
  			sinopsis:'Los géneros cinematográficos se '+
